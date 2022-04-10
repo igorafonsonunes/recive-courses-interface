@@ -1,0 +1,36 @@
+.container-register{
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.register-body{
+  text-align: center;
+  color: black;
+}
+
+.register-body form label{
+  text-align: left;
+}
+
+.register-body form input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.register-body form textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: none;
+  height: 14vh;
+}

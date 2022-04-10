@@ -1,0 +1,59 @@
+.div-card{
+  /*flex-layout*/
+  flex-grow: 4;
+  flex-basis: auto;
+  
+  margin: 3vw;
+  
+  /*border layout*/
+  border: 1px solid;
+  width: 25vw;
+  height: 36vh;
+  border-radius: 2%;
+
+  /*shadows and transitions*/
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+
+  position: relative;
+}
+
+@media screen and (max-width: 926px) {
+  .div-card{
+    width: 78vw;
+  }
+
+  .btn-acessar-curso{
+    width: 78vw !important;
+  }
+}
+
+.div-card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.head-card{
+  text-align: center;
+}
+
+.body-card {
+  text-align: center;
+}
+
+.body-card p{
+  color: black !important;
+}
+
+.footer-card{
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.btn-acessar-curso{
+    width: 25vw;
+    height: 6vh;
+    border-style: hidden;
+    background-color: #e02041;
+    border-radius: 2%;
+}
