@@ -1,6 +1,6 @@
 # Recive Courses
 
-Este seja um projeto simples e com um objetivo claro de liberar uma plataforma para links de cursos gratuitos.
+Ser um projeto simples e com um objetivo claro de liberar uma plataforma para links de cursos gratuitos.
 A premissa é que este repositorio seja de facil entendimento e demonstre um pouco de minhas habilidades com REACT + TypeScript, criando uma Aplicação do zero com uma comunicação com a API e suas arquiteturas.
 ## Receba cursos - Projeto
 
